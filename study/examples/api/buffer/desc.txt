@@ -1,0 +1,5 @@
+在ECMAScript2015(ES6)引入TypedArray之前，JavaScript语言没有读取或操作二进制数据流的机制。Buffer类被引入作为Node.js API的一部分，使其可以在TCP流和文件系统操作等场景中处理二进制数据流。
+
+现在TypedArray已经被添加进ES6中，Buffer类以一种更优与更适合Node.js用例的方式实现了Uint8Array API。
+
+Buffer类在Node.js中是一个全局变量，因此无需require(‘buffer’).Buffer

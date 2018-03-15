@@ -1,0 +1,7 @@
+nodes－－api
+Node.js 官方文档：http://nodejs.org/api/
+Node.js 中文文档：http://nodejs.cn/api/
+
+cd /Users/gaona02/Documents/gaona/study/nodeJs
+执行nodes
+nodejs 

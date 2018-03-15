@@ -1,0 +1,8 @@
+assert：学习nodeJS api的断言（assert）
+
+assert 模块提供了一组简单的断言测试集合，用于测试不变量。 该模块是供 Node.js 内部使用的，但可以通过 require('assert') 在代码中使用
+
+终端
+执行cd到/Users/gaona02/Documents/gaona/study/nodeJs/study
+执行node ***/**.js
+

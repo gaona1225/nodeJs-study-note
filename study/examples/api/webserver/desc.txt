@@ -1,0 +1,14 @@
+web server：使用node.js编写的一个web服务器，响应返回’hello world’
+
+终端
+执行cd到/Users/gaona02/Documents/gaona/study/nodeJs/study
+执行index.js,启动服务
+
+node examples/api/webserver/index.js
+
+B000000094186:study gaona02$ node examples/api/webserver/index.js
+服务器行在 http://127.0.0.1:3000/
+
+
+浏览器访问http://127.0.0.1:3000/
+输出hello world

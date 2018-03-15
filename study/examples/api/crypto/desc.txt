@@ -1,0 +1,21 @@
+crypto 模块提供了加密功能，包含对 OpenSSL 的哈希、HMAC、加密、解密、签名、以及验证功能的一整套封装。
+
+使用 require('crypto') 来访问该模块。
+
+所谓SPKAC就是网景内核原生中的一个证明签字请求机制。如今已经正式成为HTML5的注册机元素（HTML5’s keygen element.）中的一部分。
+
+crypto模块使用SPKAC数据提供证书类。大多数场景下用于处理由HTML5 元素生成的输入，NodeJS在其内部安装使用OpenSSL`s SPKAC。
+
+spkac 数据结构包含了一个公钥和一个质询。certificate.exportChallenge()方法在nodeJS的Buffer表单中返回质询元素。spkac的参数要么是一个字符串要么就是一个Buffer.
+
+正如上节所述，spkac数据结构是包含一个公钥的，那么返回公钥的方法就是 
+certificate.exportPublicKey(spkac)；
+
+Cipher加密
+
+cipher类实例化后会被译成数据，该类往往用于以下两种情况： 
+1.作为一个流式文件它可读可写。一个简单的未编译的数据会被写入到可读端，并生成 
+编译数据。 
+2.使用cipher.update()和cipher.final()两种方法直接生成编译数据。
+
+crypto.createCiper()或者cryto.createCipheriv()方法用于创建Cipher实例化对象。一定要注意，使用new关键字是没办法直接创建一个Cipher对象的。

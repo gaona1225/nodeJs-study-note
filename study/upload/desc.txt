@@ -1,0 +1,5 @@
+cd 到目录 /Users/gaona02/Documents/gaona/study/nodeJs/study/upload
+执行node index.js 启动node服务
+浏览器访问http://localhost:8888/start
+选择文件上传图片，点击上传按钮进行上传，上传完成自动跳转http://localhost:8888/upload
+在http://localhost:8888/upload可以看到received image:和展示的刚刚上传的图片

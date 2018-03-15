@@ -1,0 +1,10 @@
+1、nodejs在本电脑上的安装目录
+/Users/gaona02/Documents/gaona/study/nodeJs
+
+2、在安装目录下新建文件夹study
+在study中新建hello.js
+在hello.js中输入console.log('hello,nodejs.study');
+
+3、打开命令提示符
+cd /Users/gaona02/Documents/gaona/study/nodeJs
+执行node hello.js 执行hello.js内容输出hello,nodejs.study

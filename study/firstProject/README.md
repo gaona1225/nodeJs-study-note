@@ -1,0 +1,5 @@
+{
+	"name":"firstDemo",
+	"main":"./main.js"
+
+}

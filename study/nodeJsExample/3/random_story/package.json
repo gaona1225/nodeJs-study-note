@@ -1,0 +1,7 @@
+{
+  "name": "node",
+  "version": "0.0.1",
+  "description": "Minimalist multiroom chat server",
+  "dependencies": {
+  }
+}
